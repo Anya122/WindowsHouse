@@ -1,0 +1,17 @@
+*{
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+@font-face {
+    font-family: Roboto;
+    src: url("../fonts/Roboto.ttf");
+}
+
+body{
+    font-family: Roboto;
+    background-color: #F2F2F2;
+}
