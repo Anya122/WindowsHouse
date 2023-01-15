@@ -66,26 +66,29 @@
   
 }
 
-.service-title {
+.service-item__title {
   position: absolute;
-  padding: 66px 245px 145px 138px;
+  margin: 66px 245px 145px 138px;
   font-size: 24px;
   color: #2f2f51;
   font-weight: 700;
 }
 
-.s-icon {
+.service-item__icon {
   position: absolute;
-  padding: 55px 447px 139px 50px;
+  margin: 55px 447px 139px 50px;
 }
 
-.service-p {
+.service-item__p {
   position: absolute;
   font-size: 16px;
   color: #2f2f51;
-  padding: 160px 239px 32px 52px;
+  margin: 160px 239px 32px 52px;
+  line-height: 19px;
   
 }
+
+
 
 
 
