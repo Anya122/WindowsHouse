@@ -1,0 +1,125 @@
+.about__list{
+    display: flex;
+    gap: 0 50px;
+    margin-left: 325px;
+    margin-bottom: 35px;
+    
+}
+
+.about__list__item {
+    color: #2f2f51;
+    font-size: 18px;
+}
+
+.about-card {
+    display: flex;
+    position: relative;
+    width: 1200px;
+    height: 461px;
+    margin-bottom: 68px ;
+    background-color: #FFFFFF;
+    border-radius: 3px;
+}
+
+.about-card__img {
+    position: absolute;
+    margin-left: 605px;
+}
+
+
+.about-card__info__logo {
+    position: absolute;
+    width: 198.12px;
+    height: 139.46px;
+    margin: 46px 365px 275px 50px;
+}
+
+.about-card__info__p {
+    position: absolute;
+    margin: 247px 647px 0px 248px;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.advantages {
+    width: 1250px;
+    height: 385px;
+    padding-left: 40px;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 80px;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 87px;
+    
+}
+
+.adv-item {
+    width: 340px;
+    height: 114px;
+    margin-bottom: 101px;
+    position: relative;
+
+}
+
+.item2 {
+    width: 380px;
+}
+
+.adv-item__title {
+    color: #2f2f51;
+    font-weight: 700;
+    position: absolute;
+    text-transform: uppercase;
+    margin-left: 110px;
+}
+
+.adv-item__img {
+    position: absolute;
+}
+
+
+.adv-item__p{
+    position: absolute;
+    margin-left: 110px;
+    margin-top: 40px;
+    line-height: 26px;
+}
+
+.img2 {
+    margin-right: 110px;
+}
+
+.item2__title {
+    margin-left: 135px;
+}
+
+.item2_p {
+    margin-left: 135px;
+}
+
+.adv-btn {
+    margin-left: 400px;
+    margin-top: 400px;
+    position: absolute;
+    width: 312px;
+    height: 54.5px;
+
+}
+
+.adv__btn2 {
+    display: flex;
+    align-items: center;
+    border: none;
+    border-radius: 3px;
+    padding: 17px 23px 17px 31px;
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 18.75px;
+}
+
+.adv-btn__img {
+    margin-right: 23px;
+  }
+  
