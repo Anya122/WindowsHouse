@@ -10,6 +10,10 @@
     font-family: Roboto;
     src: url("../fonts/Roboto.ttf");
 }
+@font-face {
+    font-family: Roboto-thin;
+    src: url("../fonts/Roboto-Thin.ttf");
+}
 
 
 body{
