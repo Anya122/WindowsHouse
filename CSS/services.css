@@ -1,7 +1,4 @@
-.section1 {
-  width: 1920px;
-  margin: auto auto;
-}
+
 
 
 .title {
@@ -86,6 +83,13 @@
   margin: 160px 239px 32px 52px;
   line-height: 19px;
   
+}
+
+@media screen and (max-width: 992px) {
+  .service-items {
+    flex-direction:column;
+    gap: 38px;
+  }
 }
 
 

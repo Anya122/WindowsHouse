@@ -5,6 +5,9 @@
     padding: 17px 0;
 }
 
+.menu{
+    display: none;
+}
 .list{
     display: flex;
     gap: 0 25px;
@@ -44,3 +47,25 @@
 .btn__blue {
     background-color: #3B3A63;
 }
+
+@media screen and (max-width: 992px) {
+
+    .list{
+        display: none;
+    }
+
+    .header__logo{
+        margin-left: 156px;
+    }
+
+    .menu{
+        display: flex;
+        position: absolute;
+        left: 56px;
+    }
+
+    .btn{
+        margin-right: 56px;
+    }
+  }
+  

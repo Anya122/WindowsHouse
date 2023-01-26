@@ -1,8 +1,9 @@
 .about__list{
     display: flex;
-    gap: 0 50px;
+    gap:50px;
     margin-left: 325px;
     margin-bottom: 35px;
+    
     
 }
 
@@ -13,51 +14,62 @@
 
 .about-card {
     display: flex;
+    flex-direction: row;
     position: relative;
-    width: 1200px;
+    max-width: 1200px;
+    width: 100%;
     height: 461px;
     margin-bottom: 68px ;
     background-color: #FFFFFF;
     border-radius: 3px;
 }
 
+.about-card__left{
+    position: relative;
+}
+
 .about-card__img {
-    position: absolute;
-    margin-left: 605px;
+    width: 595px;
+    height: 461px;
+    display: flex;
+    background-image: url(../images/img5.png);
 }
 
 
 .about-card__info__logo {
-    position: absolute;
-    width: 198.12px;
+    display: flex;
+    /* position: absolute; */
+    max-width: 198.12px;
+    width: 50%;
     height: 139.46px;
     margin: 46px 365px 275px 50px;
 }
 
 .about-card__info__p {
+    display: flex;
     position: absolute;
-    margin: 247px 647px 0px 248px;
+    margin: 0px 52px 0px 248px;
+    bottom: 70px;
     font-size: 16px;
     line-height: 22px;
 }
 
 .advantages {
     width: 1250px;
-    height: 385px;
     padding-left: 40px;
     display: flex;
     justify-content: space-between;
     padding-right: 80px;
     align-items: center;
     flex-wrap: wrap;
-    margin-bottom: 87px;
+    row-gap: 100px;
+    margin-bottom: 62px;
     
 }
 
 .adv-item {
     width: 340px;
     height: 114px;
-    margin-bottom: 101px;
     position: relative;
 
 }
@@ -99,9 +111,7 @@
 }
 
 .adv-btn {
-    margin-left: 400px;
-    margin-top: 400px;
-    position: absolute;
+    margin-left: 430px;
     width: 312px;
     height: 54.5px;
 
@@ -122,4 +132,44 @@
 .adv-btn__img {
     margin-right: 23px;
   }
+
+  @media screen and (max-width: 992px) {
+    .about-card {
+        max-width: 880px;
+        width: 880px;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+    .about-card__img {
+        width: 447px;
+        height: 461px;
+        background-image: url(../images/man2.png);
+    }
+    .about-card__left {
+        width: 433px;
+    }
+
+    .about-card__info__p{
+        margin-left: 103px;
+        top: 247px;
+    }
+
+    .about__list{
+        margin-left:20%;
+        
+    }
+    .advantages{
+        margin-left: 10%;
+        max-width: 880px;
+        
+    }
+    .adv-btn {
+        margin-left: auto;
+        margin-right: auto;
+        
+        
+    }
+  }
+  
   
