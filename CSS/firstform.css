@@ -103,6 +103,7 @@
   width: 25px;
   height: 25px;
   margin: 0;
+  
 }
 
 .c_check{
@@ -119,6 +120,7 @@
   background-color: #E2E2E2;
   left: -35px;
   border-radius: 3px;
+  cursor: pointer;
 }
 
 
