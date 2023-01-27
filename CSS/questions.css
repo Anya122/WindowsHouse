@@ -35,9 +35,9 @@
 
 
 
-.question__item__p:hover {
+/* .question__item__p:hover {
     color: #EF7F04;
-}
+} */
 
 .question{
     display: flex;
@@ -55,6 +55,9 @@
 details > summary {
     list-style: none;
     position: relative;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 15px;
 
 }
 
@@ -62,7 +65,42 @@ details > p {
     margin-bottom: 30px;
 }
 
-details summary::before {
+details:hover summary{
+    color: #EF7F04;
+}
+
+details:hover svg path {
+    stroke: #EF7F04;
+}
+details * {
+    transition: all 0.5s ease-in;
+}
+
+details[open] svg {
+    transform: rotate(180deg);
+}
+
+details {
+    transition: height 0.6s ease-in;
+    animation-iteration-count: infinite;
+}
+
+details:not([open]) {
+    height: 80px;
+}
+details[open] {
+    height: 131px;
+}
+
+
+details:hover{
+    background: #FFFFFF;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 3px;
+}
+
+
+/* details summary::before {
     content: url(../images/tick.svg);
     position: absolute;
     margin-left: 94%;
@@ -73,7 +111,7 @@ details[open] summary::before {
     margin-left: 94%;
     transform: rotate(180deg);
     
-}
+} */
 
 
 
@@ -85,7 +123,9 @@ details[open] summary::before {
 @media screen and (max-width: 992px) {
 
     .questions{
-        padding: 40px 40px 63px 40px;;
+        padding: 40px 40px 63px 40px;
+        max-width: 880px;
+        margin-left: auto;
+        margin-right: auto;
     }
-
   }
